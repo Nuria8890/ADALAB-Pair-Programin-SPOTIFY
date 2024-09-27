@@ -1,11 +1,21 @@
 .cabecera {
+  display:flex;
   background-color: black;
+  justify-content: space-between;
 }
 
 .img-logo-spotify {
   width: 100px;
 }
 
-.img-menu-hamburgusa {
+.img-menu-hamburguesa {
+
   width: 15px;
 }
+
+.boton-hamburguesa {
+  display: flex;
+  align-items: center;
+ 
+}
+
