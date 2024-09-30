@@ -4,15 +4,15 @@
 
 ## 1.1 Mi primera página web
   - La distribución de elementos de la página tiene que estar perfecta.
-  - El repositorio de GitHub se tiene que llamar: **promo-A-module-1-pair-1-spotify.**
-  - Crea la estructura de carpetas adecuada para tu proyecto con HTML y CSS.
+  - OK El repositorio de GitHub se tiene que llamar: **promo-A-module-1-pair-1-spotify.**
+  - OK Crea la estructura de carpetas adecuada para tu proyecto con HTML y CSS.
 
 
 ## 1.2 Modelo de caja y herramientas
   - Es importante entender cómo se comportan las etiquetas cuando les cambiamos propiedades de apariencia como *margen, borde, padding y ancho/alto*.
   1. Crea todo el contenido y etiquetas del HTML.
-  2. Crea una hoja de estilo de reset.
-  3. Identificar qué grupos de elementos se comportan como un único elemento para agruparlos en el código (<div>) y darle estilos en conjunto.
+  2. OK Crea una hoja de estilo de reset.
+  3. OK Identificar qué grupos de elementos se comportan como un único elemento para agruparlos en el código (<div>) y darle estilos en conjunto.
   4. Añadir clases de CSS: `.my-container { border: solid 3px red; background: blue}` y poner estilos de borde y background (luego borrar) para visualizar todos los bloques de contenido.
   5. **Cabecera**: aplicar estilos a la imagen y al menú. Fondo negro y letra blanca. Alinear el menú de la cabecera en línea y hacia la derecha (franja negra). Fuente `Roboto`.
   6. Identificar valor repetidos para ponerlos en el root como variables.
@@ -34,3 +34,13 @@
   ## 1.4 Posicionamiento
   - **Cabecera**: debe ser fija, se mostrará por encima del resto de contenidos cuando se haga_scroll_hacia abajo. ((ejercicio "vente conmigo" 1.4.2))
     - La parte azul se modifica, hay que ajustar lo que corresponda para mantener el diseño.
+   
+  ## 1.5 Diseño Responsive
+  - Crear dos *media queries*: tablet y escritorio.
+  - **Cabecera**:
+    - Móvil: menú hamburguesa.
+    - Otras: se oculta el menú hamburguesa y se muestra el listado del menú.
+  - **Sección azúl**:
+    - Móvil: la imagen de fondo no existe.
+    - Otras: imagen de la chica bailando alineada a la derecha.
+  - **Sección blanca**: comprobar cómo se distribuyen los elementos de todos los dispositivos. 
