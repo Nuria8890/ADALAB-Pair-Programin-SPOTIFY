@@ -2,6 +2,19 @@
   display:flex;
   background-color: black;
   justify-content: space-between;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.blue-zone {
+  background-color: rgb(145, 221, 221);
+  height: 50%;
+}
+
+.Prueba-gratis{
+  
+  top: 0;
 }
 
 .img-logo-spotify {
@@ -19,3 +32,6 @@
  
 }
 
+.iconos {
+  width: 80px;
+}
