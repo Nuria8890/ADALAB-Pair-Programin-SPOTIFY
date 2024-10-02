@@ -44,3 +44,20 @@
     - Móvil: la imagen de fondo no existe.
     - Otras: imagen de la chica bailando alineada a la derecha.
   - **Sección blanca**: comprobar cómo se distribuyen los elementos de todos los dispositivos. 
+
+  ## 1.7 Automatización de tareas
+  1. Migraciones
+    - Crear carpeta `version-0` y meter imágenes, styles y html.
+    - Copiar plantilla starter kit.
+    - `npm install` y `npm run dev` ((¿¿`npm start`??)).
+    - Migrar html de version-0 al index.html de src (eliminar el que ya hay).
+    - Migrar css copiando el contenido de version-0 al main.css de src/scss.
+    - Actualizar link de style en html.
+    - Migrar imágenes.
+  2. Partials. Crear:
+    - Cabecera
+    - Sección azúl
+    - Sección blanca
+      - un partail por cada beneficio
+        - definir parámetros para el título, imagen y descripción
+    - Footer
