@@ -37,13 +37,16 @@
   width: 40px;
 }
 
-.iconos {
-  width: 80px;
-}
 
 .lista-cabecera {
   color: beige;
   display: none;
 
-  
+}
+
+
+
+
+.iconos {
+  width: 80px;
 }

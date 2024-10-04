@@ -1,0 +1,35 @@
+.cabecera {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 2%;
+
+}
+
+.contenedor-logo-spotify {
+    width: 100px;
+}
+
+.img-logo-spotify {
+    width: 100%;
+}
+
+.img-menu-hamburguesa {
+    width: 100%;
+}
+
+.boton-hamburguesa {
+    display: flex;
+    align-items: center;
+    width: 40px;
+}
+
+.lista-cabecera {
+    color: beige;
+    display: none;
+
+}
