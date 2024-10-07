@@ -1,3 +1,26 @@
 .iconos {
   width: 80px;
 }
+
+.container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  background-color: aquamarine;
+  
+}
+
+.beneficios {
+  border: 4px solid #b31010;
+}
+.titulo-premium {
+  grid-column: span 2;
+}
+
+.icono1 {
+  grid-column: 1/2;
+}
+
+.paquete1 {
+  grid-column: 2/3;
+}
