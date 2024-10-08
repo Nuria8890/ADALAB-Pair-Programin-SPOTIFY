@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.scss">
+    <title>Document</title>
+</head>
+<body>
+    <form class="formulario" action="">
+        <label for="correo">¿Cuál es tu correo electrónico?</label>
+        <input type="email" id="correo" name="email" placeholder="Pon tu correo electrónico.">
+
+        <label for="confirmar-correo">¿Cuál es tu correo electrónico?</label>
+        <input type="email" id="confirmar-correo" name="email-confirm" placeholder="Vuelve a poner tu correo electrónico.">
+
+        <label for="contraseña">Crea una contraseña</label>
+        <input type="password" id="contraseña" name="password" placeholder="Crea una contraseña.">
+        
+        <label for="nombre">¿Cómo quieres que te llamemos?</label>
+        <input type="text" id="nombre" name="name" placeholder="Pon un nombre de perfil."> 
+            <p>
+            <small>Esto aparece en tu perfil. </small></p>
+
+        
+        <fieldset> <!--RETOCAR-->
+            <legend>¿Cuál es tu fecha de nacimiento?</legend>
+            <label for="dia"></label>
+            <input type="date" id="dia" name="date">
+        
+        </fieldset>
+
+        <label for="genero">¿Cúal es tu genero?</label>
+        <input type="radio" id="genero" name="gender" value="hombre">
+        <input type="radio" id="genero" name="gender" value="mujer">
+        <input type="radio" id="genero" name="gender" value="no binario">
+      <!-- MIRARNOS ESTO -->
+
+
+
+
+
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+    
+</body>
+</html>
